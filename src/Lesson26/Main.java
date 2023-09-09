@@ -8,7 +8,7 @@ public class Main {
         sw.eat();
         sw.sleep();
 
-        Speakable sp = new Penguin("Jack");
+        Speakable sp = new Penguin("Jack"); //na object pingvin ssilaetsja var sp
         sp.speak();
         Animal a = new Lion("Lord");
         System.out.println("Lion name: " + a.name);
