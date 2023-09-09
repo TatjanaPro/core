@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2b365a7-d40c-4a6a-add3-96936620f0ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson25/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson25/TestStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson26/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson26/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson26/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson26/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson26/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson26/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson26/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson26/Speakable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson26/Swordfish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson24/Accountant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson24/Accountant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson24/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson24/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,7 +58,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestStudent">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Accountant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson24.Accountant" />
       <module name="core" />
@@ -74,6 +85,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson26.Main" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson26.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson25.TestStudent" />
       <module name="core" />
@@ -89,8 +113,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestStudent" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Accountant" />
+        <item itemvalue="Application.TestStudent" />
         <item itemvalue="Application.ArrLesson" />
       </list>
     </recent_temporary>
@@ -104,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693595844988</updated>
       <workItem from="1693595845982" duration="4601000" />
-      <workItem from="1694030661507" duration="8532000" />
+      <workItem from="1694030661507" duration="16712000" />
     </task>
     <servers />
   </component>

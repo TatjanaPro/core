@@ -14,6 +14,13 @@ public class Employee {
         this.experience = experience;
     }
 
+    public void showInfo () {
+        System.out.println("Name: " + getName()
+                + " Age: " + getAge()
+                + " Gender: " + getGender()
+                + " Experience: " + getExperience());
+    }
+
     public void Accepted() {
         System.out.println("Employee was accepted");
     }
@@ -41,4 +48,5 @@ public class Employee {
     public int getExperience() {
         return experience;
     }
+
 }
