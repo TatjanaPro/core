@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2b365a7-d40c-4a6a-add3-96936620f0ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/w3resource/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/w3resource/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/w3resourceAbstract/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/w3resourceAbstract/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +49,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main5">
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="w3resource.Main2" />
+  <component name="RunManager" selected="Application.w3resourceAbstract.Main2">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="w3resourceAbstract.Main" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="w3resource.*" />
+          <option name="PATTERN" value="w3resourceAbstract.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="w3resource.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="w3resource.Main" />
+    <configuration name="w3resourceAbstract.Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="w3resourceAbstract.Main2" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="w3resource.*" />
+          <option name="PATTERN" value="w3resourceAbstract.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.w3resourceAbstract.Main2" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Main4" />
         <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.w3resource.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +135,7 @@
       <updated>1693595844988</updated>
       <workItem from="1693595845982" duration="4601000" />
       <workItem from="1694030661507" duration="20360000" />
-      <workItem from="1694368863105" duration="3830000" />
+      <workItem from="1694368863105" duration="6885000" />
     </task>
     <servers />
   </component>
