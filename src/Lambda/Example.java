@@ -1,10 +1,7 @@
 package Lambda;
-
 import java.util.ArrayList;
-
 public class Example {
 }
-
 class Student {
     String name;
     char sex;
@@ -28,7 +25,7 @@ class StudentInfo {
                 + " Course: " + student.course
                 + " Average grade: " + student.avgGrade);
     }
-    void testStudents (ArrayList<Student> studentList, StudentChecks studentChecks) { //metod prinimaet kak parametri arraylist i objekt tipa dannih interfejsa StudentChecks
+    void testStudents (ArrayList<Student> studentList, StudentChecks studentChecks) { //metod prinimaet kak parametri arraylist i objekt tipa dannih interfejsa StudentChecks/ Esli ispoljzuem Predicate, to zamenjaem Student Checks na Predicate<Student>
         for (Student s : studentList) { //peremenaja tipa Students : nazvanie arrayLista
             if (studentChecks.test(s)) { // etot student podhodit pod uslovija filjtracii objekta studentChecks (smotrit filjtr v interfejse)
                 printStudent(s); //esli podhodit, to vivodim na ekran etogo studenta
@@ -73,7 +70,7 @@ class StudentInfo {
     }
 }
 
-interface StudentChecks {
+interface StudentChecks { //etot interface mozno zamenitj Predicate interfejsom
     boolean test(Student s);
 }
 /*class FindStudentsOverGrade implements StudentChecks {
