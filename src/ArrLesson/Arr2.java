@@ -1,5 +1,7 @@
 package ArrLesson;
 
+import java.util.HashMap;
+
 public class Arr2 {
     public static void main(String[] args) {
         int arr [] = {1, 2, 3, 4};
