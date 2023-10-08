@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2b365a7-d40c-4a6a-add3-96936620f0ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArrLesson/Arr3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrLesson/Arr4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrLesson/Arr5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrLesson/Arr2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrLesson/Arr2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data_Structures/FirstLab.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +47,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Arr5">
-    <configuration name="Arr1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrLesson.Arr1" />
-      <module name="core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArrLesson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FirstLab">
     <configuration name="Arr2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrLesson.Arr2" />
       <module name="core" />
@@ -117,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Data_Structures.FirstLab" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data_Structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstLab" />
         <item itemvalue="Application.Arr5" />
         <item itemvalue="Application.Arr4" />
         <item itemvalue="Application.Arr3" />
         <item itemvalue="Application.Arr2" />
-        <item itemvalue="Application.Arr1" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +136,7 @@
       <workItem from="1694368863105" duration="8282000" />
       <workItem from="1694723540176" duration="3312000" />
       <workItem from="1694727146470" duration="6921000" />
-      <workItem from="1694979006875" duration="14226000" />
+      <workItem from="1694979006875" duration="18718000" />
     </task>
     <servers />
   </component>
