@@ -1,5 +1,4 @@
 package Data_Structures;
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -8,82 +7,101 @@ public class FirstLab {
             Scanner scanner = new Scanner(System.in);
             Random random = new Random();
 
-            System.out.print("Ievadiet masīva izmēru (n): ");
-            int n = scanner.nextInt();
+            System.out.print("Enter size of array: ");
+            int arrSize = scanner.nextInt();
 
             // Izveidojam un aizpildām masīvu ar gadījuma skaitļiem
-            int[] masivs = new int[n];
-            for (int i = 0; i < n; i++) {
-                masivs[i] = random.nextInt(1000); // Variējiet diapazonu, ja nepieciešams
+            int[] arr = new int[arrSize + 1];
+            for (int i = 0; i < arrSize; i++) {
+                arr[i] = random.nextInt(901) + 100;
             }
-
             // Izvadām sākotnējo masīvu
-            System.out.println("Sākotnējais masīvs:");
-            System.out.println(Arrays.toString(masivs));
+            System.out.print("An array: ");
+            for (int i = 0; i < arrSize; i++) {
+                System.out.print(arr[i] + " ");
+            }
+           System.out.println();
 
             // Meklējam atslēgu
-            System.out.print("Ievadiet atslēgu vērtību: ");
-            int atslega = scanner.nextInt();
+            System.out.print("Enter searched key: ");
+            int key = scanner.nextInt();
+            arr[arrSize] = key; //set the barjer
 
             // Secīga meklēšana ar barjeru
-            long startTime = System.nanoTime();
-            int index = sequentialSearchWithBarrier(masivs, atslega);
-            long endTime = System.nanoTime();
-            long seciigaisLaiks = endTime - startTime;
+            int resultIndex = searchWithBarrier(arr, key);
+            int counter = searchWithBarrier(arr, key);
 
-            if (index != -1) {
-                System.out.println("Atslēga " + atslega + " atrasta sākuma masīvā (secīgā meklēšana) pie indeksa " + index);
-                System.out.println("Secīgā meklēšana aizņēma " + seciigaisLaiks + " nanosekundes.");
+            if (resultIndex != -1) {
+                System.out.println("Sequential search: The searched key " + key + " was found on index " + resultIndex + " and it took " + counter + " steps");
             } else {
-                System.out.println("Atslēga " + atslega + " netika atrasta sākuma masīvā (secīgā meklēšana)");
+                System.out.println("Sequential search: The searched key " + key + " was not found");
             }
 
             // Sakārtojam masīvu
-            Arrays.sort(masivs);
+            bubbleSort(arr);
+            System.out.println("Sorted Array:");
+            for (int i = 0; i < arrSize; i++) {
+                System.out.print(arr[i] + " ");
+            }
+            System.out.println();
 
             // Binārā meklēšana
-            startTime = System.nanoTime();
-            index = binarySearch(masivs, atslega);
-            endTime = System.nanoTime();
-            long binaraisLaiks = endTime - startTime;
+            int indexBinary = binarySearch(arr, key);
+            int counterBinary = binarySearch(arr, key);
 
-            if (index != -1) {
-                System.out.println("Atslēga " + atslega + " atrasta sakārtotajā masīvā (binārā meklēšana) pie indeksa " + index);
-                System.out.println("Binārā meklēšana aizņēma " + binaraisLaiks + " nanosekundes.");
+            if (indexBinary != -1) {
+                System.out.println("Binary search: The searched key " + key + " was found on index " + indexBinary + " and it took " + counterBinary + " steps");
             } else {
-                System.out.println("Atslēga " + atslega + " netika atrasta sakārtotajā masīvā (binārā meklēšana)");
+                System.out.println("Binary search: The searched key " + key + " was not found");
             }
         }
 
         // Secīga meklēšana ar barjeru
-        public static int sequentialSearchWithBarrier(int[] masivs, int atslega) {
-            masivs[masivs.length - 1] = atslega; // Ievietojam barjeru
+        public static int searchWithBarrier(int[] arr, int key) {
 
             int i = 0;
-            while (masivs[i] != atslega) {
+            int counter = 0;
+            while (arr[i] != key) {
                 i++;
+                counter++;
             }
 
-            if (i == masivs.length - 1) {
+            if (i == arr.length - 1) {
                 return -1; // Atslēga nav atrasta
             } else {
-                return i;
+                return counter;
             }
         }
 
+    public static void bubbleSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    // Swap arr[j] and arr[j+1]
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
         // Binārā meklēšana
-        public static int binarySearch(int[] masivs, int atslega) {
-            int low = 0;
-            int high = masivs.length - 1;
+        public static int binarySearch(int[] arr, int key) {
+            int left = 0;
+            int right = arr.length - 2;
+            int counterBinary = 0;
 
-            while (low <= high) {
-                int middle = (low + high) / 2;
-                if (masivs[middle] == atslega) {
+            while (left <= right) {
+                int middle = left + (right - left) / 2;
+                counterBinary++;
+
+                if (arr[middle] == key) {
                     return middle;
-                } else if (masivs[middle] < atslega) {
-                    low = middle + 1;
+                } if (arr[middle] < key) {
+                    left = middle + 1;
                 } else {
-                    high = middle - 1;
+                    right = middle - 1;
                 }
             }
 
