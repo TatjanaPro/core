@@ -11,10 +11,11 @@ public class FirstLab {
             int arrSize = scanner.nextInt();
 
             // Izveidojam un aizpildām masīvu ar gadījuma skaitļiem
-            int[] arr = new int[arrSize + 1];
+            int[] arr = new int[arrSize + 1];//
             for (int i = 0; i < arrSize; i++) {
                 arr[i] = random.nextInt(901) + 100;
             }
+
             // Izvadām sākotnējo masīvu
             System.out.print("An array: ");
             for (int i = 0; i < arrSize; i++) {
@@ -37,17 +38,23 @@ public class FirstLab {
                 System.out.println("Sequential search: The searched key " + key + " was not found");
             }
 
+            //masīva kopija
+            int[] sortedArr = new int[arrSize];
+            for (int i = 0; i < arrSize; i++) {
+                sortedArr[i] = arr[i];
+            }
+            bubbleSort(sortedArr);
+
             // Sakārtojam masīvu
-            bubbleSort(arr);
             System.out.println("Sorted Array:");
             for (int i = 0; i < arrSize; i++) {
-                System.out.print(arr[i] + " ");
+                System.out.print(sortedArr[i] + " ");
             }
             System.out.println();
 
             // Binārā meklēšana
-            int indexBinary = binarySearch(arr, key);
-            int counterBinary = binarySearch(arr, key);
+            int indexBinary = binarySearch(sortedArr, key);
+            int counterBinary = binarySearchCounter(sortedArr, key);
 
             if (indexBinary != -1) {
                 System.out.println("Binary search: The searched key " + key + " was found on index " + indexBinary + " and it took " + counterBinary + " steps");
@@ -89,12 +96,10 @@ public class FirstLab {
         // Binārā meklēšana
         public static int binarySearch(int[] arr, int key) {
             int left = 0;
-            int right = arr.length - 2;
-            int counterBinary = 0;
+            int right = arr.length - 1;
 
             while (left <= right) {
                 int middle = left + (right - left) / 2;
-                counterBinary++;
 
                 if (arr[middle] == key) {
                     return middle;
@@ -107,4 +112,25 @@ public class FirstLab {
 
             return -1; // Atslēga nav atrasta
         }
+
+    public static int binarySearchCounter(int[] arr, int key) {
+        int left = 0;
+        int right = arr.length - 1;
+        int counterBinary = 0;
+
+        while (left <= right) {
+            int middle = left + (right - left) / 2;
+            counterBinary++;
+
+            if (arr[middle] == key) {
+                return counterBinary;
+            } else if (arr[middle] < key) {
+                left = middle + 1;
+            } else {
+                right = middle - 1;
+            }
+        }
+
+        return counterBinary;
     }
+}
