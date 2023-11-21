@@ -16,5 +16,4 @@ public class Triangle extends RightTriangle {
        perimeter = getLegA() + getLegB() + getLegC();
         System.out.println("Triangle perimeter is " + perimeter);
     }
-
 }

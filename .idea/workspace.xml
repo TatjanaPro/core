@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2b365a7-d40c-4a6a-add3-96936620f0ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OOP2Lab/CalculatePerimeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP2Lab/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP2Lab/RightTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP2Lab/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP2Lab/Delegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP2Lab/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP3Lab/RightTrianglePerimeterCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPexample/Form1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structures/FirstLabSecondTry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOP2Lab/CalculatePerimeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP2Lab/CalculatePerimeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOP2Lab/RightTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP2Lab/RightTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOP2Lab/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP2Lab/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.OOP2Lab.Main">
+  <component name="RunManager" selected="Application.RightTrianglePerimeterCalculator">
     <configuration name="FirstLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Data_Structures.FirstLab" />
       <module name="core" />
@@ -62,13 +64,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstLabSecondTry (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstLabSecondTry" />
-      <module name="core" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Main" />
+    <configuration name="Form1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPexample.Form1" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.*" />
+          <option name="PATTERN" value="OOPexample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RightTrianglePerimeterCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP3Lab.RightTrianglePerimeterCalculator" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP3Lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RightTrianglePerimeterCalculator" />
+        <item itemvalue="Application.Form1" />
         <item itemvalue="Application.OOP2Lab.Main" />
         <item itemvalue="Application.FirstLab" />
         <item itemvalue="Application.FirstLabSecondTry" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FirstLabSecondTry (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +144,7 @@
       <workItem from="1694723540176" duration="3312000" />
       <workItem from="1694727146470" duration="6921000" />
       <workItem from="1694979006875" duration="57418000" />
-      <workItem from="1698218148616" duration="8831000" />
+      <workItem from="1698218148616" duration="19837000" />
     </task>
     <servers />
   </component>
