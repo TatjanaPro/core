@@ -31,8 +31,6 @@ public class SecondLab {
 
         int bubbleCounter = bubbleSort(arr);
 
-        bubbleSort(arr);
-
         System.out.print("Improved bubble sorted array: ");
         for (int i = 0; i < arrSize; i++) {
             System.out.print(arr[i] + " ");
@@ -42,11 +40,10 @@ public class SecondLab {
         System.out.println("Total steps taken after improved bubble sort is " + bubbleCounter);
 
         int shellCounter = shellSort(sortedArr);
-        shellSort(sortedArr);
 
         System.out.print("Shell sorted array: ");
         for (int i = 0; i < arrSize; i++) {
-            System.out.print(arr[i] + " ");
+            System.out.print(sortedArr[i] + " ");
         }
         System.out.println();
 

@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2b365a7-d40c-4a6a-add3-96936620f0ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Data_Structures/SecondLab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data_Structures/TherdLab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structures/SecondLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structures/SecondLab.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,20 +49,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SecondLab">
-    <configuration name="FirstLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Data_Structures.FirstLab" />
-      <module name="core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Data_Structures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TherdLab">
     <configuration name="Form1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOPexample.Form1" />
       <module name="core" />
@@ -114,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TherdLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Data_Structures.TherdLab" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data_Structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TherdLab" />
         <item itemvalue="Application.SecondLab" />
         <item itemvalue="Application.RightTrianglePerimeterCalculator" />
         <item itemvalue="Application.Form1" />
         <item itemvalue="Application.OOP2Lab.Main" />
-        <item itemvalue="Application.FirstLab" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +139,7 @@
       <workItem from="1694723540176" duration="3312000" />
       <workItem from="1694727146470" duration="6921000" />
       <workItem from="1694979006875" duration="57418000" />
-      <workItem from="1698218148616" duration="27158000" />
+      <workItem from="1698218148616" duration="31570000" />
     </task>
     <servers />
   </component>
