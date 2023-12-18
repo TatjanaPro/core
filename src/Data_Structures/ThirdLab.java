@@ -3,7 +3,7 @@ package Data_Structures;
 import java.util.LinkedList;
 import java.util.Random;
 
-public class TherdLab {
+public class ThirdLab {
     public static void main(String[] args) {
 
         LinkedList<Integer> list = new LinkedList<>();
